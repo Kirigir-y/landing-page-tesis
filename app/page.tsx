@@ -297,8 +297,8 @@ function FeaturesSection() {
       contentPoints: [
         "Registro de eventos y observaciones por turno.",
         "Comunicación centralizada entre el personal.",
-        "Historial inmutable para trazabilidad.",
-        "Alertas de novedades urgentes."
+        "Historial para mejor trazabilidad.",
+        "Alertas de novedades importantes."
       ]
     },
     {
@@ -309,7 +309,7 @@ function FeaturesSection() {
       contentSubtitle: "Planificación y Eventos",
       contentPoints: [
         "Visualización de agenda mensual y anual.",
-        "Agendamiento de controles médicos y rutinas.",
+        "Agendamiento de controles médicos.",
         "Recordatorios de fechas importantes.",
         "Fácil asignación de responsables."
       ]
