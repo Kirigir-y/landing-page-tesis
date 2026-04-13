@@ -550,9 +550,9 @@ function ProyeccionSection() {
       <div className="flex-1 w-full max-w-md pt-4 md:pt-0 lg:-mt-8 xl:-mt-10">
         <div className="w-full relative flex items-center justify-center group">
           <img
-            src="/landing-page-tesis/proyección.png"
+            src="/landing-page-tesis/proyeccion.png"
             alt="Proyección del sistema"
-            className="w-full h-auto object-contain [filter:drop-shadow(0px_0px_2px_rgba(0,229,255,1))_drop-shadow(0px_0px_15px_rgba(255,255,255,0.6))] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:[filter:drop-shadow(0px_0px_4px_rgba(0,255,255,1))_drop-shadow(0px_0px_30px_rgba(255,255,255,0.9))] group-hover:scale-105 group-hover:-translate-y-2"
+            className="w-full h-auto object-contain [filter:drop-shadow(0px_0px_2px_rgba(0,191,255,1))_drop-shadow(0px_0px_15px_rgba(0,102,255,0.7))] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:[filter:drop-shadow(0px_0px_4px_rgba(0,212,255,1))_drop-shadow(0px_0px_30px_rgba(0,102,255,0.9))] group-hover:scale-105 group-hover:-translate-y-2"
             onError={(e) => {
               (e.target as HTMLImageElement).src = 'data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100%25" height="100%25" viewBox="0 0 800 600"%3E%3Crect fill="%231e5877" width="800" height="600"/%3E%3Ctext fill="rgba(255,255,255,0.7)" font-family="sans-serif" font-size="28" dy="10.5" font-weight="bold" x="50%25" y="50%25" text-anchor="middle"%3EColoca tu PNG aquí:%3C/text%3E%3Ctext fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="18" dy="45" x="50%25" y="50%25" text-anchor="middle"%3E/public/landing-page-tesis/proyeccion.png%3C/text%3E%3C/svg%3E';
             }}
